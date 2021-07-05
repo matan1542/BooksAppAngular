@@ -1,0 +1,19 @@
+.app-header{
+    display:flex;
+    justify-content:space-between;
+    &>*{
+        padding: 10px;
+    }
+    .href-list{
+        display:flex;
+        &>*:not(:last-child){
+            margin-right: 10px;
+        }
+    }
+}
+
+//Contorling whats's active in the header
+.active{
+    font-size: 20px;
+    color: black;
+}
