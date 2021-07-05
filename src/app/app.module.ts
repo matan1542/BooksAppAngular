@@ -8,6 +8,8 @@ import { BookShopComponent } from './pages/book-shop/book-shop.component';
 import { HeaderComponent } from './cmps/header/header.component';
 import { BooksListComponent } from './cmps/books-list/books-list.component';
 import { BookPreviewComponent } from './cmps/book-preview/book-preview.component';
+import {RouterModule} from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BookPreviewComponent } from './cmps/book-preview/book-preview.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
